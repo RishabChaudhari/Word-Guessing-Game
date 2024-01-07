@@ -1,0 +1,39 @@
+1. Description:
+   - This is a Python script that lets you play an interactive game where you guess the name of a movie. The script randomly selects a 
+     movie name from a predefined list. First, you need to input your name to start the game. Once you're in, you'll have to guess the 
+     letters of the movie name. You have only 12 chances to guess the correct letters.
+
+2. Gameplay:
+   - Movie Selection:
+     A movie name will be selected randomly from a list of movie names.
+
+   - Player Details:
+     Players are prompted to input their names. 
+     A welcome message is displayed, outlining the objective of the game and the number of turns available (12).
+
+   - Game Loop:
+     The game is contained within a while loop that will continue until the player either guesses the entire movie name correctly or 
+     exhausts all chances.
+
+   - Display Movie Name:
+     The selected movie name is iterated through letter by letter. 
+     If the player has guessed a letter, it is revealed. Otherwise, an underscore is displayed.
+
+   - Guess Input:
+     Players are prompted to enter a letter as their guess.
+
+   - Update Player Guesses:
+     After the player makes a guess, their guess is added to the string of previous guesses made by the player.
+
+   - Check Guess Validity:
+     If the player guesses a letter not in the movie name, they lose a chance.
+
+   - Game Over Condition:
+     If the player uses up all chances (chances == 0), the game ends and displays a "Game Over" message.
+
+   - Game Victory Condition:
+     If the player guesses all letters correctly, they will see a congratulatory message along with the revealed movie name.
+
+3. This script offers an entertaining and interactive experience, combining elements of randomness, user input, and conditional statements to create a movie guessing game.
+
+
