@@ -1,0 +1,53 @@
+Number Guessing Game:
+
+1. Program Introduction:
+The present Python project is a straightforward game of number-guessing. The game involves a random number selection from within a specified range, which the user is required to guess. The program generates a random number between predetermined lower and upper bounds, as specified by the user. The player is allowed a limited number of attempts to guess the correct number, and after each attempt, the program provides feedback to the player. The feedback provided indicates whether the guess was too high, too small, or correct. The game concludes when the player correctly guesses the number or exhausts the allowed number of attempts.
+
+2. Algorithm Steps:
+   - User Input for Range:
+     Prompt the user to enter the lower and upper bounds for the number-guessing game. 
+     Store these values in the variables lower_bound and upper_bound.
+
+   - Generate Random Number:
+     To generate a random number within a range, use the random.randint() function. 
+     It will provide you with a random number (x) within the specified range.
+     
+   - Initialize Variables:
+     To keep track of the number of attempts, initialize the count variable to 0.
+
+   - User Guess Loop:
+     Start a while loop that continues until the user correctly guesses the number or reaches the maximum allowed attempts (11 attempts).
+
+   - User Input for Guess:
+     Prompt the user to input their guess and store it in the variable input_1.
+
+   - Check Guess Against Random Number:
+     Compare the user's guess (input_1) with the randomly generated number (x).
+     Provide feedback to the user on whether the guess is too high, too small, or correct.
+
+   - Winning Conditions:
+     If the guess is correct:
+     If the number of attempts (count) is less than 5, congratulate the player for guessing it quickly.
+     If the number of attempts is between 5 and 10, acknowledge the successful guess and suggest trying to do it in fewer trials for a  
+     special comment.
+
+   - Losing Conditions:
+     If the user exhausts all 11 attempts without guessing the correct number, print a message indicating that they have run out of 
+     trials.
+
+   - Increment Attempt Counter:
+     Increment the count variable after each guess.
+
+   - End of Game:
+     End the loop and the game once one of the winning or losing conditions is met.
+
+   - Display Result:
+     Print the appropriate message based on the outcome of the game.
+     The program provides an interactive and engaging experience for the user, encouraging them to guess the correct number within the  
+     specified range while receiving feedback on each attempt.
+
+
+
+
+
+
